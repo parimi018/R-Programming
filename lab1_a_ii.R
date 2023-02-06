@@ -1,0 +1,6 @@
+v=matrix(c(32,67,100,57),nrow=4,ncol = 4,byrow=TRUE)
+s=c("Maths","English","Telugu","Science")
+cl=c("7th","8th","9th","10th")
+c=c("violet","blue","green","yellow")
+barplot(v,xlab="Class names",ylab = "total marks",main ="Class average marks",names.arg =cl,col=c )
+legend("topleft",s,fill=c)

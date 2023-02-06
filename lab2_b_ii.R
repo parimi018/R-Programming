@@ -1,0 +1,6 @@
+library(plotrix)
+w=c(94,45,55,70,10,80,25)
+piepercent=round(100*w/sum(w),0)
+n=c("Shreyas","Sufiyan","Tayyab","Karthik","Neeraj","Roshan","Sathish")
+pie3D(w,labels=piepercent,radius=0.8,main="Weights",col=rainbow(7),explode = 0.1)
+legend("topright",cex=0.3,n,fill=rainbow(7))

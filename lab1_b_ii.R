@@ -1,0 +1,6 @@
+v=c(12,17,18,17,17,18)
+plot(v,type="o",col="red",xlab="subjects",ylab="marks",main="Marks")
+t=c(13,15,14,12,18,17)
+year=c("1st sem","2nd sem")
+lines(t,type="o",col="blue")
+legend("topleft",cex=0.8,year,fill=c("blue","red"))
